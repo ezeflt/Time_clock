@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "horloge",
+    "slug": "horloge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/expo-img/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/expo-img/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/expo-img/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/expo-img/favicon.png"
+    }
+  }
+}
