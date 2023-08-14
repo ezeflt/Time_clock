@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Image, StyleSheet, View , Text, ImageBackground, ScrollView, TouchableOpacity} from 'react-native';
-import {requireFont, houreToday, textToSpeech} from '../../dataApp/HomePage/Home';
+import {requireFont, houreToday, pronouncesText} from '../../dataApp/HomePage/Home';
 import { useSelector } from 'react-redux';
 import {countdown} from '../../dataApp/AlarmPage/calculAlarm';
 import Alarm from './Alarm/Alarm';
 import { BlurView } from 'expo-blur';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Vibration } from 'react-native';
-import * as BackgroundFetch from 'expo-background-fetch';
 
 export default function HomePage({ navigation }){
 
@@ -15,7 +14,7 @@ export default function HomePage({ navigation }){
 
     const houre = houreToday();  // GET hour today, each secondes
 
-    const [textSpeech, setTextSpeech] = useState('');  // state to hold the text that will be pronounced by textToSpeech
+    const [textSpeech, setTextSpeech] = useState('');  // state to hold the text that will be pronounced by pronouncesText
 
     const [ringer, setRinger] = useState(false);  // state to activate or deactivate the ringer with boolean
 
@@ -51,7 +50,7 @@ useEffect(() => {
             }
 
             // If ringer is true, pronounce the text
-            ringer && textToSpeech(textSpeech);
+            ringer && pronouncesText(textSpeech);
         });
 
         // Activate vibration if the ringer is true, else cancel it

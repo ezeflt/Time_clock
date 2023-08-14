@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-import { useEffect } from 'react';
-import { Image, StyleSheet, View , Text, ImageBackground, ScrollView, TouchableOpacity} from 'react-native';
+import { Image, StyleSheet, View , Text, TouchableOpacity} from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useDispatch, useSelector } from 'react-redux';
-import {transformHourToDate,countdown} from '../../../dataApp/AlarmPage/calculAlarm';
+import { useDispatch } from 'react-redux';
+import {countdown} from '../../../dataApp/AlarmPage/calculAlarm';
 import { removeAlarm } from '../../../reducers/alarm';
-import { Vibration } from 'react-native';
-import {textToSpeech} from '../../../dataApp/HomePage/Home';
 
 export default function HomePage(props){
 

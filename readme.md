@@ -50,7 +50,7 @@ Vous devriez voir ceci
   <img src="./assets/readmeImg/screenApp.png" alt="Time clock" width="100%" />
 </div>
 
-# Voici une vidéo d'ajout d'alarme
+### Voici une vidéo d'ajout d'alarme
 1| Rendez-vous sur la page d'ajout d'alarme. </br>
 2| Choisissez une heure.</br>
 3| Saisissez le texte de votre alarme.</br>
@@ -59,6 +59,7 @@ Vous devriez voir ceci
 <div id="" align="center">
   <img src="./assets/readmeImg/tutoVideo.gif" alt="Time clock" width="35%" />
 </div>
+
 
 # Développeur 
 

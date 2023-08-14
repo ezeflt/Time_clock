@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { Image, StyleSheet, View } from 'react-native';
 
   export default function LoadPage({ navigation }){

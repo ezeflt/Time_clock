@@ -57,30 +57,29 @@ function houreToday(){
 
 /**
  * Description :
- * speech the text
+ * pronounces the text
  * 
- * @param {string} textSpeech is the text speech
+ * @param {string} text is the text
  * @param {number} index is used to find the voice to voice array
  */
-const textToSpeech = (textSpeech, index) => {
+const pronouncesText = (text, index) => {
 
       // check if the text haves data
-      if(textSpeech){
+      if(text){
         // create the speech option
         const option = {
           voice: index ? voiceData[index] : 'com.apple.ttsbundle.Thomas-compact',
           speech: 1,
           rate: 1.1
         };
-        // speech text textSpeech
-        Speech.speak(textSpeech, option);
+        // pronounces the text
+        Speech.speak(text, option);
 
         const voices = Speech.getAvailableVoicesAsync();
-        console.log(voices);
       }else{
         console.log('the world doesn\'t exists');
       }
 };
 
 // export functions of this page
-module.exports = { requireFont ,houreToday, textToSpeech};
+module.exports = { requireFont ,houreToday, pronouncesText};

@@ -5,12 +5,12 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { BlurView } from 'expo-blur';
 import DataPicker from 'react-native-modern-datepicker';
 import { useDispatch, useSelector } from 'react-redux';
-import {requireFont,textToSpeech} from '../../dataApp/HomePage/Home';
+import {requireFont,pronouncesText} from '../../dataApp/HomePage/Home';
 import { countdown } from '../../dataApp/AlarmPage/calculAlarm';
 import {transformHourToDate} from '../../dataApp/AlarmPage/calculAlarm';
 import { addTimer ,resetAll} from '../../reducers/timer';
 
-export default function Timer(props){
+export default function Timer(){
 
     const dispatch = useDispatch(); // initialise dispatch
 
@@ -77,7 +77,7 @@ export default function Timer(props){
     };
 
     if( countdown(timed) === '0 : 0 : 0'){
-        textToSpeech(dataTimer.text);
+        pronouncesText(dataTimer.text);
         dispatch(resetAll());
     }
 
