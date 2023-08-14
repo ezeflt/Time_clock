@@ -7,7 +7,5 @@ Time Clock est une application mobile innovante conçue pour simplifier la gesti
 
 <div id="" align="center">
   <img src="./assets/readmeImg/expo_icon.png" alt="Time clock" width="10%" />
-</div>
-<div id="" align="center">
-  <img src="./assets/readmeImg/expo_icon.png" alt="Time clock" width="10%" />
+    <img src="./assets/readmeImg/expo_icon.png" alt="Time clock" width="10%" />
 </div>
