@@ -35,7 +35,7 @@ yarn start
 # Présentation 
 
 |page d'accueil|minuteur page|page d'ajout d'alarme
-|---|---|---|---|
+|-----------|--------------|-----------|
 <div id="" align="start">
   <img src="./assets/readmeImg/screenApp.png" alt="Time clock" width="100%" />
 </div>
