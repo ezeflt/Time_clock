@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "horloge",
-    "slug": "horloge",
+    "name": "time clock",
+    "slug": "time-clock",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/expo-img/icon.png",
