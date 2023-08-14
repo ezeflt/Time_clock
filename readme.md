@@ -40,7 +40,7 @@ Vous devriez voir ceci
 - Si vous êtes sur Android copiez tout le lien exp://192. .... et collez l'url manuellement sur Expo Go
 - Si vous êtes sur MacOS press i pour ouvrir un émulateur d'iphone
 - Si vous êtes sur Window press a pour ouvrir un émulateur d'android
-
+</br></br>
 
 # Présentation de l'application
 
