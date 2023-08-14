@@ -41,10 +41,10 @@ yarn start
 </div>
 
 # Voici une vidéo d'ajout d'alarme
-1| Rendez-vous sur la page d'ajout d'alarme.
-2| Choisissez une heure.
-3| Saisissez le texte de votre alarme.
-4| Attendez que votre alarme se déclenche
+1| Rendez-vous sur la page d'ajout d'alarme. </br>
+2| Choisissez une heure.</br>
+3| Saisissez le texte de votre alarme.</br>
+4| Attendez que votre alarme se déclenche</br>
 5| L'IA prononcera le texte de votre alarme jusqu'à ce que vous décidiez de stopper l'alarme
 <div id="" align="center">
   <img src="./assets/readmeImg/tutoVideo.gif" alt="Time clock" width="35%" />
