@@ -42,7 +42,7 @@ Vous devriez voir ceci
 - Si vous êtes sur Window press a pour ouvrir un émulateur d'android
 </br></br>
 
-# Présentation de l'application
+## Présentation de l'application
 
 |page d'accueil|minuteur page|page d'ajout d'alarme
 |-----------|--------------|-----------|
@@ -62,8 +62,8 @@ Vous devriez voir ceci
 
 # Développeur 
 
-Ezechiel Felten 
+Ezechiel Felten </br>
 
-feltenezechiel1@gmail.com
-[linkedin](https://www.linkedin.com/in/ezechiel-felten-475693248/)
-[portfolio](https://ezechiel-app.vercel.app/)
+feltenezechiel1@gmail.com</br>
+[linkedin](https://www.linkedin.com/in/ezechiel-felten-475693248/)</br>
+[portfolio](https://ezechiel-app.vercel.app/)</br>
