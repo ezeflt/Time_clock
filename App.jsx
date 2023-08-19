@@ -1,9 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
-//import stack navigation de changé de page sur un press button
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-//import Tab Navigator changé de page avec la tabBar
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-//import awesome icon
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 //import screen component

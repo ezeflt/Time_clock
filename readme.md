@@ -8,19 +8,34 @@ Time Clock est une application mobile innovante conçue pour simplifier la gesti
 
 # Technologie utilisée
 
-- javascript
 - react-native
 - expo
 - react-redux
 
-# Installation
+# Prérequis 
 
-Installez l'application Expo Go sur votre téléphone avec app store ou play store
+Pour tester l'applications il vous faut :
+
+- un iphone ou un android
+- Installez l'application Expo Go sur votre téléphone avec app store ou play store
 <div id="" align="start">
   <img src="./assets/readmeImg/expo_icon.png" alt="Time clock" width="10%" />
     <img src="./assets/readmeImg/appStore.png" alt="Time clock" width="20%" />
     <img src="./assets/readmeImg/playStoreF.png" alt="Time clock" width="20%" />
 </div>
+
+# Testez l'application en ligne
+
+1. Si vous avez un android, scannez le Qr code android
+2. Si vous avez un iphone, scannez le Qr code iphone
+
+<div id="" align="start">
+<div style="flex-direction :row;display: flex; justify-content: space-around; width:80%"><h4>Android QR code<h4> <h4>Iphone QR code<h4></div>
+  <img src="./assets/readmeImg/timeClockQrCodeAndroid.svg" alt="Time clock" width="40%" />
+    <img src="./assets/readmeImg/timeClockQrCodeIphone.svg" alt="Time clock" width="40%" />
+</div>
+
+# Installation et test local
 
 Exécutez ces lignes de commande dans votre terminal sur votre ordinateur
 `````bash
@@ -36,10 +51,10 @@ Vous devriez voir ceci
 </div>
 
 
-- Si vous êtes sur Iphone scannez ce QR code
-- Si vous êtes sur Android copiez tout le lien exp://192. .... et collez l'url manuellement sur Expo Go
-- Si vous êtes sur MacOS press i pour ouvrir un émulateur d'iphone
-- Si vous êtes sur Window press a pour ouvrir un émulateur d'android
+- Si vous avez un iphone, scannez le Qr code iphone
+- Si vous avez un android, scannez le Qr code android
+- Si vous êtes sur MacOS pressez la touche i pour ouvrir un émulateur d'iphone
+- Si vous êtes sur Window pressez la touche a pour ouvrir un émulateur d'android
 </br></br>
 
 ## Présentation de l'application

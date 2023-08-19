@@ -11,12 +11,9 @@ import { Vibration } from 'react-native';
 export default function HomePage({ navigation }){
 
     const dataAlarm = useSelector((state)=>state.alarm.value);  // GET data of alarm local storage
-
-    const houre = houreToday();  // GET hour today, each secondes
-
     const [textSpeech, setTextSpeech] = useState('');  // state to hold the text that will be pronounced by pronouncesText
-
-    const [ringer, setRinger] = useState(false);  // state to activate or deactivate the ringer with boolean
+    const [ringer, setRinger] = useState(false);       // state to activate or deactivate the ringer with boolean
+    const houre = houreToday();                        // GET hour today, each secondes
 
     requireFont();  //load font for text
 
